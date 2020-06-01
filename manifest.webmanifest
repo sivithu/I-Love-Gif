@@ -1,0 +1,39 @@
+{
+  "short_name": "I<3G",
+  "name": "ILoveGifs",
+  "description": "I Like My Gif",
+  "icons": [
+    {
+      "src": "assets/images/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "orientation": "portrait",
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "Search | GIF Lover?",
+      "short_name": "Search",
+      "description": "search",
+      "url": "/search?source=pwa",
+      "icons": [{ "src": "/assets/images/icon-192x192", "sizes": "192x192" }]
+    },
+    {
+      "name": "My GIF's | GIF Lover?",
+      "short_name": "MyGIFs",
+      "description": "like",
+      "url": "/saved?source=pwa",
+      "icons": [{ "src": "/assets/images/icon-192x192", "sizes": "192x192" }]
+    }
+  ]
+}
